@@ -1,0 +1,23 @@
+<rss version="2.0">
+    <channel>
+        <title>Wallpapers</title>
+        <description>List of new wallpapers</description>
+        <link>http://server/wallapper/</link>
+        <generator>wallpapger</generator>
+        <item>
+            <title>Test gallery changes</title>
+            <description>added images for Test gallery</description>
+            <link>http://server/wallapper/test</link>
+        </item>
+        <item>
+            <title>Test gallery2</title>
+            <description>Newly added images for Test gallery</description>
+            <link>http://server/wallapper/test2</link>
+        </item>
+        <item>
+            <title>Test gallery</title>
+            <description>images for Test gallery</description>
+            <link>http://server/wallapper/test</link>
+        </item>
+    </channel>
+</rss>

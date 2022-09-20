@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>$album_title</title>
+
+        <link rel="stylesheet" href="./css/addition.css" />
+        <link rel="stylesheet" href="./css/bootstrap.cyborg.min.css" />
+
+        <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png" />
+    </head>
+    <body>
+        <div id="app">
+            <p class="text-center title-text-5">
+                == $album_title ==
+            </p>
+
+            <!-- col are 12u wide -->
+            <div class="container">
+                <div class="row row-flex">
+                    <!-- album items -->
+                    <div class="col-md-6 col-sm-6 col-xs-12" >
+                        <a href="$file_full">
+                            <div class="content bg-border">
+                                <div target="_blank" class="hov">
+                                    <img
+                                        class="center-block thumb"
+                                        loading="lazy"
+                                        src="$file_thumb"
+                                    />
+                                    <img
+                                        class="full"
+                                        src="$file_thumb"
+                                    />
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- album items end -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
