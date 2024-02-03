@@ -188,7 +188,7 @@ EOM
 
     cd ..
     echo "[page-creator] transmitting data"
-    if [[ "$(rssync 2>&1 --garbageoption)" == *"unknown option"* ]]; then
+    if [[ "$(rsync 2>&1 --garbageoption)" == *"unknown option"* ]]; then
         rsync -uvrP "$folder" "${remote}:${server_path}/$folder/"
     else
         scp -r "$folder" "${remote}:${server_path}"
